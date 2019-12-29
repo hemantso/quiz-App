@@ -61,7 +61,7 @@ const Poll = require('../models/Poll.js');
 // router to get homepage
 router.get('/', function (req, res, next) {
      Poll.find().exec((err, polls) => {
-         console.log(polls);
+         
             res.render('home', { 
                 style: 'home.css',
                 polls: polls 
