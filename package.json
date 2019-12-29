@@ -1,0 +1,28 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Project repo for Team 9",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemant-soni-vst-au4/quiz-App.git"
+  },
+  "author": "Hemant soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemant-soni-vst-au4/quiz-App/issues"
+  },
+  "homepage": "https://github.com/hemant-soni-vst-au4/quiz-App#readme"
+}
