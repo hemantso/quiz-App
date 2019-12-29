@@ -6,7 +6,7 @@ var ObjectID = require('mongodb').ObjectID;
 const mongoose = require('mongoose');
 const db = require('./models/index.js');
 
-var PORT = process.env.PORT | 8080;
+var PORT = process.env.PORT || 8080;
 
 
 app.engine('handlebars', exphbs());
